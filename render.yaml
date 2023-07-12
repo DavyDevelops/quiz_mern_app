@@ -1,0 +1,6 @@
+services:
+  - name: backend
+    env:
+      - key: PORT
+        value: 5000
+    startCommand: npm start
